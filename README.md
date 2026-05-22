@@ -58,7 +58,7 @@ src/
 
 ├── app/
 │   ├── dashboard/
-│   ├── request-service/
+│   ├── generate-leads/
 │   ├── test-tools/
 │   └── api/
 │       ├── dashboard/
@@ -95,7 +95,7 @@ src/
 Clone repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/GauRaVsinghbora/mini_lead_distribution_platform.git
 ```
 
 Move into project:
@@ -271,41 +271,6 @@ Step 5:
 Provider counts are updated using MongoDB transactions.
 
 ---
-
-## Deployment (Vercel)
-
-Push code to GitHub:
-
-```bash
-git add .
-
-git commit -m "Initial commit"
-
-git push
-```
-
-Go to:
-
-https://vercel.com
-
-Steps:
-
-1. Import GitHub repository
-
-2. Select project
-
-3. Add environment variable:
-
-```env
-MONGODB_URI=your_connection_string
-```
-
-4. Click Deploy
-
----
-
-
-
 
 
 
